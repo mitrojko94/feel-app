@@ -1,0 +1,37 @@
+{
+    "user1": {
+        "username": "user1",
+        "password": "password1",
+        "created": ""
+    },
+    "user2": {
+        "username": "user2",
+        "password": "password2",
+        "created": ""
+    },
+    "Darko": {
+        "username": "Darko",
+        "password": "drvoje",
+        "created": "2022-01-02 09:10:10"
+    },
+    "mitrojko": {
+        "username": "mitrojko",
+        "password": "mitrojkic",
+        "created": "2022-01-02 09:19:00"
+    },
+    "u4\t\t": {
+        "username": "u4\t\t",
+        "password": "p4",
+        "created": "2022-01-02 09:21:48"
+    },
+    "baba": {
+        "username": "baba",
+        "password": "nina",
+        "created": "2022-01-02 09:25:33"
+    },
+    "Danijela": {
+        "username": "Danijela",
+        "password": "dacka97",
+        "created": "2022-01-02 09:26:29"
+    }
+}

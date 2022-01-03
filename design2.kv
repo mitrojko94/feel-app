@@ -1,0 +1,33 @@
+#Moramo uvek GridLayout-u dodeliti broj kolona, inace ce one uvek zavrsiti u donjem levom uglu
+
+<RootWidget>:
+    <LoginScreen>:
+        name: "login_screen"
+        GridLayout:  #Ovaj GridLayout sadrzi sve nase vidzete i on je glavni, main GridLayout
+            cols: 1
+            GridLayout:  #Ovaj GridLayout sadrzi input polja za username, password i login dugme
+                cols: 1
+                Label:
+                    text: "User login"
+                TextInput:
+                    hint_text: "Username"  #hint_text je ono sto pise u input polju
+                TextInput:
+                    hint_text: "Password"
+                Button:
+                    text: "Login"
+
+
+            GridLayout:  #Ovaj GridLayout sadrzi dugme za forget password, sign up
+                cols: 2
+                Button:
+                    text: "Forgot Password?"
+                Button:
+                    text: "Sign Up"
+
+
+#Hijerarhika Kivy app:
+    # App(MainApp)
+    #ScreenManager(RootWidget)
+    #Screen(LoginScreen) - proizvoljno ime u zagradi, ime klase
+    #GridLayout
+    #GridLayout
